@@ -1,4 +1,4 @@
-package com.mallohaja.letsspeak.web.question.requestdto;
+package com.mallohaja.letsspeak.domain.question.requestdto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-public class ChangeUpvoteDto {
-
+public class UpdateQuestionDto {
     private Long memberId;
+    private String content;
 }

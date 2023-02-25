@@ -1,4 +1,4 @@
-package com.mallohaja.letsspeak.web.question;
+package com.mallohaja.letsspeak.domain.question;
 
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;

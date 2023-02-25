@@ -1,11 +1,11 @@
-package com.mallohaja.letsspeak.web.Member;
+package com.mallohaja.letsspeak.domain.Member;
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.mallohaja.letsspeak.web.Member.requestdto.JoinMemberDto;
+import com.mallohaja.letsspeak.domain.Member.requestdto.JoinMemberDto;
 
 import lombok.RequiredArgsConstructor;
 

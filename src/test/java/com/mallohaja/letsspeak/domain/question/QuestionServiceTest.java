@@ -1,16 +1,15 @@
-package com.mallohaja.letsspeak.web.question;
+package com.mallohaja.letsspeak.domain.question;
 
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import com.mallohaja.letsspeak.web.Member.MemberService;
-import com.mallohaja.letsspeak.web.Member.requestdto.JoinMemberDto;
-import com.mallohaja.letsspeak.web.question.requestdto.ChangeUpvoteDto;
-import com.mallohaja.letsspeak.web.question.requestdto.PostQuestionDto;
-import com.mallohaja.letsspeak.web.question.requestdto.UpdateQuestionDto;
+import com.mallohaja.letsspeak.domain.Member.MemberService;
+import com.mallohaja.letsspeak.domain.Member.requestdto.JoinMemberDto;
+import com.mallohaja.letsspeak.domain.question.requestdto.ChangeUpvoteDto;
+import com.mallohaja.letsspeak.domain.question.requestdto.PostQuestionDto;
+import com.mallohaja.letsspeak.domain.question.requestdto.UpdateQuestionDto;
 
 @SpringBootTest
 public class QuestionServiceTest {

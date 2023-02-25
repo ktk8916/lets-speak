@@ -1,4 +1,4 @@
-package com.mallohaja.letsspeak.web.question;
+package com.mallohaja.letsspeak.domain.question;
 
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.mallohaja.letsspeak.web.question.requestdto.ChangeUpvoteDto;
-import com.mallohaja.letsspeak.web.question.requestdto.PostQuestionDto;
-import com.mallohaja.letsspeak.web.question.requestdto.UpdateQuestionDto;
+import com.mallohaja.letsspeak.domain.question.requestdto.ChangeUpvoteDto;
+import com.mallohaja.letsspeak.domain.question.requestdto.PostQuestionDto;
+import com.mallohaja.letsspeak.domain.question.requestdto.UpdateQuestionDto;
 
 import lombok.RequiredArgsConstructor;
 

@@ -1,10 +1,10 @@
-package com.mallohaja.letsspeak.web.Member;
+package com.mallohaja.letsspeak.domain.Member;
 
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.mallohaja.letsspeak.web.Member.requestdto.JoinMemberDto;
+import com.mallohaja.letsspeak.domain.Member.requestdto.JoinMemberDto;
 
 import lombok.RequiredArgsConstructor;
 

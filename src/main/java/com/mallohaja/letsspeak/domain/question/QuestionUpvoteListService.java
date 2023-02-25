@@ -1,4 +1,4 @@
-package com.mallohaja.letsspeak.web.question;
+package com.mallohaja.letsspeak.domain.question;
 
 import java.util.Optional;
 

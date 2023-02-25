@@ -1,4 +1,4 @@
-package com.mallohaja.letsspeak.web.Member;
+package com.mallohaja.letsspeak.domain.Member;
 
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import com.mallohaja.letsspeak.web.Member.requestdto.JoinMemberDto;
+import com.mallohaja.letsspeak.domain.Member.requestdto.JoinMemberDto;
 
 @SpringBootTest
 public class MemberServiceTest {

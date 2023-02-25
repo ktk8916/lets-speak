@@ -1,4 +1,4 @@
-package com.mallohaja.letsspeak.web.question;
+package com.mallohaja.letsspeak.domain.question;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

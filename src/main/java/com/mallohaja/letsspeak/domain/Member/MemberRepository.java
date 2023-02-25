@@ -1,4 +1,4 @@
-package com.mallohaja.letsspeak.web.Member;
+package com.mallohaja.letsspeak.domain.Member;
 
 import java.util.List;
 import java.util.Optional;

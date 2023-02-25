@@ -1,4 +1,4 @@
-package com.mallohaja.letsspeak.web.Member;
+package com.mallohaja.letsspeak.domain.Member;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

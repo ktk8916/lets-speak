@@ -1,4 +1,4 @@
-package com.mallohaja.letsspeak.web.question.requestdto;
+package com.mallohaja.letsspeak.domain.question.requestdto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

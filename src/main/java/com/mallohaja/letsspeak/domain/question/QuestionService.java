@@ -1,14 +1,14 @@
-package com.mallohaja.letsspeak.web.question;
+package com.mallohaja.letsspeak.domain.question;
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.mallohaja.letsspeak.web.Member.MemberService;
-import com.mallohaja.letsspeak.web.question.requestdto.ChangeUpvoteDto;
-import com.mallohaja.letsspeak.web.question.requestdto.PostQuestionDto;
-import com.mallohaja.letsspeak.web.question.requestdto.UpdateQuestionDto;
+import com.mallohaja.letsspeak.domain.Member.MemberService;
+import com.mallohaja.letsspeak.domain.question.requestdto.ChangeUpvoteDto;
+import com.mallohaja.letsspeak.domain.question.requestdto.PostQuestionDto;
+import com.mallohaja.letsspeak.domain.question.requestdto.UpdateQuestionDto;
 
 import lombok.RequiredArgsConstructor;
 
