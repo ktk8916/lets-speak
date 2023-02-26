@@ -17,12 +17,6 @@ public class QuestionServiceTest {
     @Autowired private MemberService memberService;
     @Autowired private QuestionService questionService;
 
-    // @BeforeEach
-    // void 회원등록(){
-    //     JoinMemberDto dto = new JoinMemberDto("member1");
-    //     memberService.join(dto);
-    // }
-
     @Test
     void 질문작성_시_회원이_아니면_예외를_반환한다(){
 
